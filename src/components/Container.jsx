@@ -210,7 +210,7 @@ const Container = ({ setIsTrue }) => {
           <span>
             kean's 7<sup>th</sup>
           </span>
-          <span>Birthday Celebrations</span>
+          <span>Birthday Celebration</span>
         </StyledLogo>
       </StyledHeader>
 

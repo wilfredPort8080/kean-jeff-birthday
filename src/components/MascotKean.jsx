@@ -54,7 +54,7 @@ const SpeechBubble = styled.div`
   position: absolute;
 
   top: -1rem; /* -top-4 */
-  right: -11.5rem; /* -right-2 */
+  right: -9.5rem; /* -right-2 */
 
   background-color: #fff;
   color: #2e1065;
@@ -231,7 +231,7 @@ const MascotKean = () => {
           </MascotSvg>
 
           <SpeechBubble>
-            <span> 🎂 Happy Birthday Kean Jeff! 🎉</span>
+            <span> Click here! 🎂 Happy Birthday Kean Jeff! 🎉</span>
           </SpeechBubble>
         </Mascot>
       </MascotWrapper>
