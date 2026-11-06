@@ -181,12 +181,7 @@ const FormInvitation = ({ setIsTrue }) => {
 
         <InvitationForm>
           <FormRow>
-            <Input
-              type="text"
-              id="inputTo"
-              value="Best Friend & Family!"
-              readonly
-            />
+            <Input type="text" id="inputTo" value="Family & Friend!" readonly />
           </FormRow>
 
           <TwoColumnGrid>

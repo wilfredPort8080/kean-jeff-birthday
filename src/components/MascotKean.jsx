@@ -54,7 +54,7 @@ const SpeechBubble = styled.div`
   position: absolute;
 
   top: -1rem; /* -top-4 */
-  right: -9.5rem; /* -right-2 */
+  right: -5.5rem; /* -right-2 */
 
   background-color: #fff;
   color: #2e1065;
@@ -85,6 +85,40 @@ const SpeechBubble = styled.div`
   }
 `;
 
+const SpeechBubble1 = styled.div`
+  position: absolute;
+
+  left: 0;
+  bottom: 0;
+
+  background-color: #fff;
+  color: #2e1065;
+
+  font-weight: 700;
+
+  padding: 0.375rem 0.75rem; /* py-1.5 px-3 */
+
+  border-radius: 1rem; /* rounded-2xl */
+  border-bottom-left-radius: 0;
+
+  border: 2px solid #facc15;
+
+  box-shadow:
+    0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -4px rgba(0, 0, 0, 0.1);
+
+  font-size: 0.75rem; /* text-xs */
+
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+
+  animation: bounce 1s infinite;
+
+  @media (min-width: ${devices.md}) {
+    font-size: 1.875rem; /* text-sm */
+  }
+`;
 const MascotKean = () => {
   const triggerMascotReaction = () => {
     confetti({
@@ -231,8 +265,12 @@ const MascotKean = () => {
           </MascotSvg>
 
           <SpeechBubble>
-            <span> Click here! 🎂 Happy Birthday Kean Jeff! 🎉</span>
+            <span> 🎂 Happy Birthday Kean Jeff! 🎉</span>
           </SpeechBubble>
+
+          <SpeechBubble1>
+            <span> Click Me!</span>
+          </SpeechBubble1>
         </Mascot>
       </MascotWrapper>
     </MascotContainer>
