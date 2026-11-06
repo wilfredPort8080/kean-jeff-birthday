@@ -181,7 +181,12 @@ const FormInvitation = ({ setIsTrue }) => {
 
         <InvitationForm>
           <FormRow>
-            <Input type="text" id="inputTo" value="Family & Friend!" readonly />
+            <Input
+              type="text"
+              id="inputTo"
+              value="Family & Friends!"
+              readonly
+            />
           </FormRow>
 
           <TwoColumnGrid>
@@ -190,12 +195,7 @@ const FormInvitation = ({ setIsTrue }) => {
                 <CalenderIcon />
                 Date:
               </Label>
-              <Input
-                type="text"
-                id="inputDate"
-                value="November 30, 2026"
-                readonly
-              />
+              <Input type="text" id="inputDate" value="11-30-2026" readonly />
             </FormRow>
 
             <FormRow>
